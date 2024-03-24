@@ -1,0 +1,31 @@
+/* BOMb styles */
+
+/* Top bar styling */
+@topBar {
+    @property("background-color", "black");
+    @property("color", "white");
+    @property("height", "50px");
+    @property("display", "flex");
+
+    @selector(".logo") {
+        @property("margin", "auto 0");
+    }
+
+    @selector(".menu") {
+        @property("margin", "auto 0");
+    }
+}
+
+/* Lot styling */
+@lot {
+    @property("display", "grid");
+    @property("grid-template-columns", "1fr 2fr");
+
+    @selector(".sidebar") {
+        @property("background-color", "gray");
+    }
+
+    @selector(".content") {
+        @property("background-color", "white");
+    }
+}
